@@ -19,4 +19,5 @@ export default (req, res) => {
     /*console.log( path.execSync('sed -n 1,90p now__launcher.js').toString())*/
     /*console.log("now__launcher ", path.execSync('cat now__launcher.js').toString())*/
     res.status(200).json({ text: 'Hello' })
+    
 }
